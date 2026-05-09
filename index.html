@@ -498,7 +498,12 @@
       display: flex; align-items: center; justify-content: space-between; flex-wrap: gap;
       border-top: 1px solid rgba(212,175,55,0.15);
     }
-    .footer-brand {
+    .footer-logo {
+  height: 44px;
+  width: auto;
+  display: block;
+  filter: drop-shadow(0 0 6px rgba(212, 175, 55, 0.2));
+}
       font-family: 'Playfair Display', serif;
       font-size: 1.3rem;
       color: var(--white);
@@ -539,7 +544,10 @@
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo"><img src="images/logo.png" alt="MedShift" /><span>Med</span>Shift</div>
+<div class="nav-logo">
+  <img src="images/logo.png" alt="MedShift Logo" />
+  <span>Med</span>Shift
+</div>
   <div class="nav-links">
     <a href="#workers">For Workers</a>
     <a href="#facilities">For Facilities</a>
@@ -800,7 +808,7 @@
 <!-- FOOTER -->
 <footer>
   <div>
-    <div style="display:flex;align-items:center;gap:0.5rem;"><img src="images/logo.png" alt="MedShift" style="height:38px;width:38px;object-fit:cover;object-position:50% 20%;border-radius:50%;flex-shrink:0;" /> <div class="footer-brand"><span>Med</span>Shift</div></div>
+    <div style="display:flex;align-items:center;gap:0.5rem;"><img src="images/logo.png" alt="MedShift Logo" class="footer-logo" /> <div class="footer-brand"><span>Med</span>Shift</div></div>
     <div class="footer-tag">The right care. Right when it matters.</div>
   </div>
   <div class="footer-links">
